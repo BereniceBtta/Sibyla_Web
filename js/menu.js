@@ -44,7 +44,7 @@ function replaceBiografia() {
     $('.biografia').click(function() {
         var d = document.getElementById("content-bibliography").innerHTML;
         document.getElementById("container_right").innerHTML = d;
-        this.hide_content();
+        hide_content();
     });
 };
 
