@@ -50,7 +50,7 @@ function replaceContacto() {
 
 function replaceBiografia() {
     $('.biografia').click(function() {
-        $("#container_right").style.width = '100%';
+        document.getElementById("container_right").style.width = '100%';
         var d = document.getElementById("content-bibliography").innerHTML;
         document.getElementById("container_right").innerHTML = d;
         $("#container_left").hide();
