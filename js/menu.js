@@ -54,4 +54,5 @@ function hide_content() {
     $('.elements_nav').animate({
         left: '-150%'
     });
+    alert("hola");
 }
