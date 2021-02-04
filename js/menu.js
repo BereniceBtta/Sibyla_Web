@@ -53,6 +53,7 @@ function replaceBiografia() {
         var d = document.getElementById("content-bibliography").innerHTML;
         document.getElementById("container_right").innerHTML = d;
         $("#container_left").hide();
+        $("#container_right").style.width = "100%";
         $("#fb-root").hide();
         $("#slider").hide();
         $('.elements_nav').animate({

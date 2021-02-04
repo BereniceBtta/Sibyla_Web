@@ -149,6 +149,7 @@ nav ul li {
 }
 
 .text-center {
+    margin-left: 1em;
     color: rgb(58, 37, 57);
     font-weight: bold;
     /*font-style: italic;*/
