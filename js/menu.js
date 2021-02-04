@@ -28,7 +28,11 @@ function replaceFacebook() {
         $("#fb-root").show();
         var d = document.getElementById("fb-root").innerHTML;
         document.getElementById("container_right").innerHTML = d;
-        this.hide_content();
+        $("#fb-root").hide();
+        $("#slider").hide();
+        $('.elements_nav').animate({
+            left: '-150%'
+        });
     });
 };
 
@@ -36,7 +40,11 @@ function replaceContacto() {
     $('.contacto').click(function() {
         var d = document.getElementById("content-form").innerHTML;
         document.getElementById("container_right").innerHTML = d;
-        this.hide_content();
+        $("#fb-root").hide();
+        $("#slider").hide();
+        $('.elements_nav').animate({
+            left: '-150%'
+        });
     });
 };
 
@@ -44,15 +52,10 @@ function replaceBiografia() {
     $('.biografia').click(function() {
         var d = document.getElementById("content-bibliography").innerHTML;
         document.getElementById("container_right").innerHTML = d;
-        hide_content();
+        $("#fb-root").hide();
+        $("#slider").hide();
+        $('.elements_nav').animate({
+            left: '-150%'
+        });
     });
 };
-
-function hide_content() {
-    $("#fb-root").hide();
-    $("#slider").hide();
-    $('.elements_nav').animate({
-        left: '-150%'
-    });
-    alert("hola");
-}
