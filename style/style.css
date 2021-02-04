@@ -288,7 +288,7 @@ nav ul li {
     padding: 1em;
     width: 480%;
     height: 80%;
-    animation: cambio 20s 2 normal linear;
+    animation: cambio 20s infinite normal linear;
     /* animation: cambio 20s infinite alternate linear;*/
 }
 
