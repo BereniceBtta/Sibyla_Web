@@ -173,9 +173,10 @@ nav ul li {
     overflow: hidden;
 }
 
-.facebook_div {
-    /*  display: none;*/
-}
+
+/*.facebook_div {
+      display: none;
+}*/
 
 
 /*container form*/
@@ -291,7 +292,7 @@ nav ul li {
 }
 
 .slider li {
-    width: 100%;
+    height: 100%;
     list-style: none;
 }
 

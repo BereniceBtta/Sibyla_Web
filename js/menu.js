@@ -3,8 +3,6 @@ $(document).ready(replaceBiografia);
 $(document).ready(replaceContacto);
 $(document).ready(replaceFacebook);
 
-
-
 var contador = 1;
 
 function main() {
