@@ -25,7 +25,7 @@ function replaceFacebook() {
     $('.facebook').click(function() {
         document.getElementById("container_right").style.width = '65%';
         $("#container_left").show();
-        $("#fb-root").show();
+        // $("#fb-root").show();
         var d = document.getElementById("fb-root").innerHTML;
         document.getElementById("container_right").innerHTML = d;
         $("#fb-root").hide();
