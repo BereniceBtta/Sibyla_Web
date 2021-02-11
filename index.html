@@ -135,7 +135,7 @@
     </div>
 
     <div class="content-form" id="content-form">
-        <form class="message">
+        <form class="message" id="message">
             <label class="text-message" for="email-emisor">Correo:  </label>
             <input class="input" type="email" name="email-emisor" id="email-emisor" placeholder="Email" required>
             <br>
@@ -151,6 +151,12 @@
             <label class="text-message" for="message-files">Documentos: </label>
             <input class="btn" type="file" name="message-files" id="message-files" multiple>-->
             <br>
+            <script>
+   function onSubmit(token) {
+     document.getElementById("message").submit();
+   }
+ </script>
+
             <button class="g-recaptcha" data-sitekey="6Lea_1IaAAAAAOfMy3cySqONM7-O0IVuwYEoiqKz" data-callback='onSubmit' data-action='submit'>Submit</button>
             <br>
             <br>
